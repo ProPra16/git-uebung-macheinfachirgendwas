@@ -12,7 +12,6 @@
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
 
-	<Alert title="Error" headerText="An Error has occurred." contentText="Too many Buttons!"
-	
+	<Alert title="Error" headerText="An Error has occurred." contentText="Too many Buttons!"/>
 
 </GridPane>
