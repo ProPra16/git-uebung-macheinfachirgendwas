@@ -11,5 +11,8 @@
     <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    
+    <Button fx:id="fileButton" text="Choose file" onAction="#chooseFile" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Label fx:id="fileLabel" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
 
 </GridPane>
