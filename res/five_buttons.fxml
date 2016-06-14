@@ -2,7 +2,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.text.Text?>
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.*?>
 <GridPane xmlns:fx="http://javafx.com/fxml"
           fx:controller="de.hhu.propra16.FiveButtonsController"
           alignment="CENTER"
@@ -12,6 +12,6 @@
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
 
-	<Alert title="Error" headerText="An Error has occurred." contentText="Too many Buttons!"/>
+	<Button fx:id="errorButton"/>
 
 </GridPane>
